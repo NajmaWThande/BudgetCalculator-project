@@ -6,7 +6,8 @@ const Form = ({
   amount, 
   handleCharge, 
   handleAmount, 
-  handleSubmit 
+  handleSubmit,
+  edit
 }) => {
   return (
     <form onSubmit={handleSubmit}>
@@ -36,7 +37,8 @@ const Form = ({
           />
         </div>
       </div>
-        <button type='submit' className='btn'>Please submit
+        <button type='submit' className='btn'>
+          {edit?'edit': "submit"}
         <MdSend className='btn-icon'/>
         </button>
     </form>

@@ -13,7 +13,8 @@
 body {
   background-image: url(./images/pexels-jonathan-borba-14820460.jpg);
   color: var(--mainWhite);
-  font-family: "BrunoAce-regular", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-size: 2500px;
 }
 h1 {
   text-align: center;
@@ -45,16 +46,17 @@ label {
 }
 
 .form-control {
-  background-color: transparent;
+  background-color: #d57e362f;
   border: none;
-  border-bottom: 1px solid var(--mainBlack);
-  border-radius: 1;
-  outline: none;
-  height: 3rem;
-  width: 100%;
+  border-bottom: 2px solid var(--mainBlack);
+  border-radius: 2;
+  outline: invert;
+  height: 2rem;
+  width: 90%;
   font-size: 12px;
   margin: 0 0 8px 0;
-  padding: 0;
+  padding: 1;
+  color: #000000;
 }
 .btn {
   text-decoration: none;
@@ -62,7 +64,7 @@ label {
   background-color: #d57e3691;
   text-align: center;
   letter-spacing: 0.5px;
-  font-size: 14px;
+  font-size: 13px;
   outline: 0;
   border: none;
   border-radius: 2px;
@@ -100,6 +102,8 @@ label {
   display: flex;
   justify-content: space-between;
   transition: all 0.3s linear;
+  border-bottom: 1px solid var(--mainBlack);
+  border-style: groove;
 }
 .item:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -115,7 +119,7 @@ label {
   text-transform: capitalize;
 }
 .amount {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1rem;
   color: var(--mainWhite);
   border-radius: 2px;
@@ -136,11 +140,12 @@ label {
   color: var(--mainGreen);
 }
 .total {
-  font-weight: 300;
+  font-weight: 200;
   color: var(--mainWhite);
   background-color: #d57e3682;
   border-radius: 2px;
   padding: 2px 5px;
+  border-bottom: 1px solid var(--mainBlack);
 }
 .alert {
   padding: 0.75rem 1.25rem;

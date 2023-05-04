@@ -16,9 +16,12 @@ const ExpenseItem = ({ expense, handleEdit, handleDelete}) => {
           onClick={() => handleEdit(id)}>
             <MdEdit/>
           </button>
-          
-          <button className="clear-btn" 
-          aria-label="delete button">
+
+          <button 
+          className="clear-btn" 
+          aria-label="delete button"
+          onClick={() => handleDelete(id)}
+          >
             <MdDelete/>
           </button>
         </div>
