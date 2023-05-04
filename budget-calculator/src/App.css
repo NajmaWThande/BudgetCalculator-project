@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 :root {
-  --primaryColor: #7d158085;
+  --primaryColor: #d57e3691;
   --mainWhite: #fff;
   --mainBlack: #222;
-  --mainGrey: "";
   --mainRed: #d50000;
   --mainGreen: #4caf50;
 }
@@ -12,9 +11,9 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(./images/thunder-953118_1920.jpg);
-  color: var(--mainBlack);
-  font-family: "Roboto", sans-serif;
+  background-image: url(./images/pexels-jonathan-borba-14820460.jpg);
+  color: var(--mainWhite);
+  font-family: "BrunoAce-regular", sans-serif;
 }
 h1 {
   text-align: center;
@@ -60,7 +59,7 @@ label {
 .btn {
   text-decoration: none;
   color: var(--mainWhite);
-  background-color: var(--primaryColor);
+  background-color: #d57e3691;
   text-align: center;
   letter-spacing: 0.5px;
   font-size: 14px;
@@ -93,7 +92,7 @@ label {
   padding: 0;
 }
 .item {
-  background-color: #d536a66b;
+  background-color: #d57e3682;
   line-height: 1.5rem;
   padding: 10px 20px;
   margin-bottom: 1rem;
@@ -119,7 +118,6 @@ label {
   font-weight: 300;
   font-size: 1rem;
   color: var(--mainWhite);
-  background-color: var(--primaryColor);
   border-radius: 2px;
   padding: 1px 3px;
 }
@@ -140,7 +138,7 @@ label {
 .total {
   font-weight: 300;
   color: var(--mainWhite);
-  background-color: var(--primaryColor);
+  background-color: #d57e3682;
   border-radius: 2px;
   padding: 2px 5px;
 }
