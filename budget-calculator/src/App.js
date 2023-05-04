@@ -7,17 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 //localstorage.getItem('item name');
 //localstorage.setItem('item name');
-/*const initialExpenses = [
-{id:uuidv4(), charge:"rent", amount:1600},
-{id:uuidv4(), charge:"car payment", amount:400},
-{id:uuidv4(), charge:"credit card bill", amount:1200},
-{id:uuidv4(), charge:"Gas", amount:100},
-{id:uuidv4(), charge:"insuarance", amount:1100},
-{id:uuidv4(), charge:"food", amount:300},
-{id:uuidv4(), charge:"internet bill", amount:150},
-{id:uuidv4(), charge:"other", amount:800}
 
-];*/ 
 const initialExpenses = localStorage.getItem("expenses")
 ? JSON.parse(localStorage.getItem("expenses")) : [];
 function App() {
