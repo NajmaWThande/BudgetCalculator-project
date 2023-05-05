@@ -26,7 +26,6 @@ const[alert, setAlert] = useState({show:false});
 const [edit, setEdit] = useState(false);
 //edit item
 const [id, setId] = useState(0);
-//quote
 
 
 //--------- UseEffect -----------
