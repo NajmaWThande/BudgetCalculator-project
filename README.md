@@ -18,4 +18,3 @@ After all inputs are made, this calculator will then add up all the item cost li
 
 # Image
 
-![](budget-calculator/src/images/budgetpage.png) 
