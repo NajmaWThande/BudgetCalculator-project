@@ -18,5 +18,5 @@ After all inputs are made, this calculator will then add up all the item cost li
 
 # GIF
 
-![](budget-calculator/src/images/ezgif.com-gif-maker (2).gif)
+![](budget-calculator/src/images/ezgif.com-gif-maker%20(2).gif)
 
