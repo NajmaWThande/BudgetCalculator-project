@@ -16,6 +16,6 @@ After all inputs are made, this calculator will then add up all the item cost li
 
 - I then used the UUID("universally unique identifier"), which give an item a unique ID and to correctly help find a record so it can be updated, deleted, and so on.
 
-# Images 
+# Image
 
 ![](budget-calculator/src/images/budgetpage.png) 
