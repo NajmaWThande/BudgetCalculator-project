@@ -1,5 +1,4 @@
 # BudgetCalculator-project
-# Budget-Calculator
 
 A budget calculator that allows a user to measure their monthly expenses 
 
