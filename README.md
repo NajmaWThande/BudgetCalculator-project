@@ -19,4 +19,4 @@ After all inputs are made, this calculator will then add up all the item cost li
 
 # images 
 
-![](images/budgetpage.png) 
+![]("https://github.com/NajmaWThande/BudgetCalculator-project/blob/main/budget-calculator/src/images/budgetpage.png") 
